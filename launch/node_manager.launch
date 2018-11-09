@@ -24,13 +24,13 @@
   
 <arg name="revise_angle" value="0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0,0, 0, 0,0, 0, 0,0, 0, 0,0, 0, 0,45,-15,45,-15,0,0,"/>
 <group ns ="ns1">
-<!-- device 1 : ip_192.168.0.3  port_2014 -->
+<!-- device 1 : ip_192.168.0.3  port_3014 -->
 <node pkg="rfans_driver" type="driver_node" name="rfans_driver"  >
   <param name="advertise_name" value="rfans_packets" />
   <param name="control_name" value="rfans_control"/>
 
   <param name="device_ip" value="192.168.0.3" />
-  <param name="device_port" value="2014" />
+  <param name="device_port" value="3014" />
   <param name="rps" value="10"/>
   <param name="frame_id" value="/world"/>
 
@@ -54,7 +54,7 @@
   <param name="control_name" value="rfans_control"/>
 
   <param name="device_ip" value="192.168.0.4" />
-  <param name="device_port" value="2020" />
+  <param name="device_port" value="2014" />
   <param name="rps" value="10"/>
   <param name="frame_id" value="/world"/>
 
