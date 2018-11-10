@@ -24,7 +24,7 @@
   
 <arg name="revise_angle" value="0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0,0, 0, 0,0, 0, 0,0, 0, 0,0, 0, 0,45,-15,45,-15,0,0,"/>
 <group ns ="ns1">
-<!-- device 1 : ip_192.168.0.3  port_3014 -->
+<!-- device 1 -16l : ip_192.168.0.3  port_3014 -->
 <node pkg="rfans_driver" type="driver_node" name="rfans_driver"  >
   <param name="advertise_name" value="rfans_packets" />
   <param name="control_name" value="rfans_control"/>
