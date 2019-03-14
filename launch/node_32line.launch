@@ -29,10 +29,10 @@
   <param name="advertise_name" value="rfans_packets" />
   <param name="control_name" value="rfans_control"/>
 
-  <param name="device_ip" value="192.168.0.3" />
+  <param name="device_ip" value="192.168.0.4" />
   <param name="device_port" value="2014" />
   <param name="rps" value="10"/>
-  <param name="frame_id" value="/world"/>
+  <param name="frame_id" value="/map"/>
 
 </node>
 
